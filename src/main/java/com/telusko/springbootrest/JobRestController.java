@@ -56,7 +56,6 @@ public class JobRestController {
     public String load()
     {
         service.load();
-
         return "success";
     }
 }
